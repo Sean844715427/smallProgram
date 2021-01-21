@@ -1,0 +1,22 @@
+/* 顶部 */
+.top {
+  width: 100%;
+  height: 500rpx;
+  background-color: #1b2947;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btmMenu{
+  display: flex;
+  flex-wrap:wrap
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width:210rpx;
+  height:210rpx;
+}

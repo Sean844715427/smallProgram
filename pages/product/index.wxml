@@ -1,0 +1,17 @@
+<!-- 上部 -->
+<view class="top">
+    <text class="fs24" style="color:#fff;text-align:center;">小半</text>
+    <text class="fs24" style="color:#fff;text-align:center;line-height:60rpx">
+        不敢回看，左顾右盼不自然的暗自喜欢
+        偷偷搭讪总没完地坐立难安，试探说晚安
+        多空泛又心酸，低头呢喃
+        对你的偏爱太过于明目张胆
+        在原地打转的小丑伤心不断
+        空空留遗憾，多难堪又为难</text>
+</view>
+<view class="pdl30 pdt30 pdr30 btmMenu" >
+    <view wx:for="{{list}}"  class="menu mgl20" bindtap="selectMenu" data-id="{{item.id}}" >
+        <image src="{{item.icon_Url}}" style="width:100rpx;height:100rpx" mode="scaleToFill"></image>
+        <text class="fs28 mgt20">{{item.menu}}</text>
+    </view>
+</view>
