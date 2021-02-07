@@ -19,8 +19,9 @@ Page({
         var _this = this
         util.postApi('menu',{},
         function(res){
+            console.log(res)
             _this.setData({
-                list:res.data.Data
+                list:res
             })
             console.log(_this.data.list)
         })

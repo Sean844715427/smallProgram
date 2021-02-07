@@ -38,9 +38,9 @@ Page({
       Index:this.data.Index,
       Size:this.data.Size
     },function(res){
-      console.log(res.data)
+      console.log(res)
       _this.setData({
-        list:res.data.Data
+        list:res
       })
     })
   },
