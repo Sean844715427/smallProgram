@@ -3,8 +3,7 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/product/index",
-    "pages/style/index",
-    "pages/test/index"
+    "pages/music/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
