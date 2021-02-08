@@ -25,7 +25,6 @@ Page({
   },
 
   onLoad: function (options) {
-    
   },
 
   onShow(){

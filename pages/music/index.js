@@ -1,6 +1,8 @@
 // pages/music/index.js
-Page({
+const util = require("../../utils/util")
 
+Page({
+  
   /**
    * 页面的初始数据
    */
@@ -12,7 +14,15 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    this.getcategory()
+  },
 
+  //获得音乐类别
+  getcategory(){
+    util.postApi("playlist/catlist",{},
+    function(res){
+      console.log(res)
+    })
   },
 
   /**

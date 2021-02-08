@@ -34,6 +34,9 @@ Page({
             case 1:
                 this.openMap()
             break
+            case 2:
+                this.music()
+            break
             default:
                 wx.showToast({
                     title: '功能我还没做哦',
@@ -42,6 +45,13 @@ Page({
                   })
             break
         }
+    },
+
+    //打开音乐
+    music(){
+        wx.navigateTo({
+          url: '/pages/music/index',
+        })
     },
 
     //打开地图
